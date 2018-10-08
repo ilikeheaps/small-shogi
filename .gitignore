@@ -1,0 +1,7 @@
+_build
+*~
+.directory
+.merlin
+game.native
+scratch
+debug.log

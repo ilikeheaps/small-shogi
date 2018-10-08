@@ -1,0 +1,10 @@
+Requires: lambda-term (opam)
+
+Compiling:
+$ ocamlbuild -use-ocamlfind game.native
+
+When it doesn't work:
+$ eval $(opam config env)
+
+Running:
+$ ./game.native
