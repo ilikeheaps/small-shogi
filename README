@@ -1,10 +1,13 @@
-Requires: lambda-term (opam)
+An implementation of 5x6 shogi. Includes a terribly slow AI.
+
+Dependencies: lambda-term (opam)
 
 Compiling:
 $ ocamlbuild -use-ocamlfind game.native
 
-When it doesn't work:
+When it doesn't work (mostly a reminder for myself):
 $ eval $(opam config env)
 
 Running:
 $ ./game.native
+

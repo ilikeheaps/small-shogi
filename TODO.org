@@ -1,0 +1,2 @@
+* Faster AI (currently it's too slow to make any reasonable move in reasonable time)
+** Update README accordinly when done

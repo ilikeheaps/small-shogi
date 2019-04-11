@@ -79,7 +79,8 @@ module GameShogi =
 struct
   type gameState = Shogi.matchState
   type move = Shogi.move
-            
+
+  let string_of_move m = Shogi.string_of_move m
   let applyMove = Shogi.applyMove
   let moves matchState =
     match matchState.Shogi.status with

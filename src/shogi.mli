@@ -47,6 +47,10 @@ val in_promotion : board -> player -> position -> bool
 val string_of_phys : physPiece -> string
   
 val string_of_piece : piece -> string
+
+val string_of_move : move -> string
+
+val string_of_position : position -> string
   
 val applyMove : matchState -> move -> matchState
 
